@@ -39,11 +39,11 @@ export default function LandingPage() {
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "Data Scientist",
+      name: "Shubham Bisht",
+      role: "Software Developer",
       content:
-        "This AI learning platform transformed my understanding of machine learning. The interactive courses are amazing!",
-      avatar: "SJ",
+        "This AI learning platform transformed my understanding of Next JS. The interactive courses are amazing!",
+      avatar: "SB",
     },
     {
       name: "Mike Chen",
@@ -53,10 +53,10 @@ export default function LandingPage() {
       avatar: "MC",
     },
     {
-      name: "Emily Rodriguez",
+      name: "Aashish",
       role: "Student",
       content:
-        "From beginner to advanced AI concepts, this platform made complex topics easy to understand.",
+        "From beginner to advanced concepts, this platform made complex topics easy to understand.",
       avatar: "ER",
     },
   ];
@@ -293,33 +293,33 @@ export default function LandingPage() {
                 <div className="space-y-4">
                   <div className="flex items-center space-x-4 p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl">
                     <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-                      <span className="text-white font-bold">AI</span>
+                      <span className="text-white font-bold">RJ</span>
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-800">
-                        Machine Learning Fundamentals
+                       React JS Fundamentals
                       </h4>
                       <p className="text-gray-600 text-sm">Progress: 75%</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-4 p-4 bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl">
                     <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-600 rounded-lg flex items-center justify-center">
-                      <span className="text-white font-bold">DL</span>
+                      <span className="text-white font-bold">MERN</span>
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-800">
-                        Deep Learning Specialization
+                        MERN Specialization
                       </h4>
                       <p className="text-gray-600 text-sm">Progress: 45%</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-4 p-4 bg-gradient-to-r from-green-50 to-blue-50 rounded-xl">
                     <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-blue-600 rounded-lg flex items-center justify-center">
-                      <span className="text-white font-bold">NLP</span>
+                      <span className="text-white font-bold">NJ</span>
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-800">
-                        Natural Language Processing
+                        NEXT JS 
                       </h4>
                       <p className="text-gray-600 text-sm">Progress: 20%</p>
                     </div>
@@ -414,7 +414,7 @@ export default function LandingPage() {
       <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-6">
-            Ready to Start Your AI Learning Journey?
+            Ready to Start Your Learning Journey?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Join thousands of learners who are already advancing their careers
