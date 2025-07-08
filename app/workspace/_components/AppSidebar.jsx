@@ -17,7 +17,7 @@ import {
   LayoutDashboard,
   PencilRulerIcon,
   WalletCards,
-  UserCircle2Icon
+  UserCircle2Icon,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -55,9 +55,13 @@ const SideBarOptions = [
 export function AppSidebar() {
   const path = usePathname();
   return (
-    <Sidebar>
+    <Sidebar >
       <SidebarHeader className={"p-4"}>
-        <Image src={"/logo.svg"} alt="logo" width={20} height={20} />
+        <div className="flex items-center">
+          <Image src={"/logo.svg"} alt="logo" width={20} height={20} />
+
+          <span className="ml-4 text-xl font-bold text-gray-800"><Link href={'/'}>LearnAI</Link></span>
+        </div>
       </SidebarHeader>
       <SidebarContent>
         <SidebarGroup>
