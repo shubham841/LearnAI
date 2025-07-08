@@ -237,7 +237,7 @@ export default function LandingPage() {
                   <p>
                     Username:{" "}
                     <code className="bg-white px-1 py-0.5 rounded text-sm">
-                      @demo
+                      demo
                     </code>
                   </p>
                   <p>
